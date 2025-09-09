@@ -1,0 +1,14 @@
+{
+  "name": "yukiai-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Chatbot dengan Gemini API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
